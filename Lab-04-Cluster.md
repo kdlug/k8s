@@ -338,7 +338,7 @@ sudo ETCDCTL_API=3 etcdctl --cert /etc/kubernetes/pki/etcd/peer.crt --key /etc/k
 https://10.164.0.2:2379 is healthy: successfully committed proposal: took = 7.967712ms
 ```
 
-Lab 6. Multinode cluster. Backup all hosts
+## Lab 6. Multinode cluster. Backup all hosts
 
 Get cluster nodes
 
