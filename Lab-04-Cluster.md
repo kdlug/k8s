@@ -1,5 +1,6 @@
 # CKA Lab Part 4 - Cluster
-## Lab 1 - Upgrading cluster
+
+## Lab 1 Upgrading cluster
 ### Upgrade a Kubernetes cluster running a previous version to the latest version
 
 ### Find the latest stable kubeadm version
@@ -68,7 +69,7 @@ ii  kubelet                               1.17.1-00                         amd6
 ii  kubernetes-cni                        0.7.5-00                          amd64        Kubernetes CNI
 ```
 
-## Lab 2 - Cluster Upgrades - OS Upgrades
+## Lab 2 Cluster Upgrades - OS Upgrades
 
 ### Gracefully remove a node from active service
 
@@ -338,7 +339,7 @@ sudo ETCDCTL_API=3 etcdctl --cert /etc/kubernetes/pki/etcd/peer.crt --key /etc/k
 https://10.164.0.2:2379 is healthy: successfully committed proposal: took = 7.967712ms
 ```
 
-## Lab 6. Multinode cluster. Backup all hosts
+## Lab 6 Multinode cluster. Backup all hosts
 
 Get cluster nodes
 
